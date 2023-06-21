@@ -1,5 +1,8 @@
+
+// https://api.weatherapi.com/v1/current.json?key=d6c3fa7a15384efc97073333232006&q=London&aqi=no
+
 const apiKey = 'd6c3fa7a15384efc97073333232006';
-const apiUrl = 'http://api.weatherapi.com/v1/current.json?aqi=yes&q=';
+const apiUrl = 'https://api.weatherapi.com/v1/current.json?aqi=yes&q=';
 
 const searchBox       = document.querySelector('.search input')
 const searchBtn       = document.querySelector('.search button')
